@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        tools:text="Logo"
+        android:id="@+id/sponsorLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        tools:text="sponsorTitle"
+        android:id="@+id/sponsorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sponsorLogo"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/sponsorDescription"
+        tools:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sponsorTitle"
+        android:layout_toRightOf="@+id/sponsorLogo" />
+
+    <TextView
+        tools:text="AmountDonate"
+        android:id="@+id/sponsorAmountDonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sponsorDescription"
+        android:layout_toRightOf="@+id/sponsorLogo" />
+</RelativeLayout>

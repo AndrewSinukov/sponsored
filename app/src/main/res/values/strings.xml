@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sponsored</string>
+
+    <string name="tab_instructions">Instructions</string>
+    <string name="tab_bank_details">Bank Details</string>
+    <string name="help_project">To help the project</string>
+</resources>
